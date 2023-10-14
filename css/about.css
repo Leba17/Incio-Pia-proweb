@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #AED6F1 !important;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,7 +17,7 @@ section {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -40,3 +40,39 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* Contenido: */
+/* Aqui se agregaron ediciones para todos los parrafos dentro de el conteiner
+Tipo de letra, tamaño, borde, espacio del texto y el borde (Padding), y el fondo blanco*/
+.container p{
+    text-align:justify ;
+    font-size: large;
+    border: 1px solid black;
+    padding:10px;
+    background-color: white;
+}
+/* Dentro del container colocamos ediciones para que dentro de todo lo que este del conteiner
+este centrado y ocupe todo el espacio disponible*/
+.container{
+    text-align: center;
+    display:flex;
+    align-items: center;
+    margin: 0px;
+}
+/* Agregamos padding y margen a las cartas que estan dentro de los conteiner asi para que no
+se viera muy junto dentro del conteiner*/
+.container .card{
+    padding: 5px;
+    margin: 10px;
+}
+/* todos los article dentro del conteiner se editaran para agregarles un borde y padding
+ademas, cambiamos el color de fondo*/
+.container article{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #D1F2EB ;
+}
+
+
+
+
+
